@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-decoration: none;
+    align-content: center;
+}
+#cuerpo{
+    background-color: aqua;
+    height: 900px;
+    width: auto;
+}
+#letras{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 60px;
+    color: blueviolet;
+    padding-top: 50px;
+}
+#menu{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    
+}
+#menu-bar{
+    display:inline-block ;
+    position: absolute;
+    background-color: brown;
+    align-content: flex-end;
+
+}
