@@ -1,0 +1,51 @@
+body{
+    font-size: 15px;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+[type="checkbox"]{
+    display:none;
+    padding: 0.7em 1em;
+}
+[type="checkbox"]:checked + label{
+ color: blue;
+}
+header{
+    height: 70px;
+    width: 100%;
+    position: fixed; /*mantiene el contenedor en su lugar*/
+    z-index: 1; /*capa del bloque*/
+    padding: 0 10px;
+}
+header .contenedor{
+    height: 100%;
+}
+
+.contenedor-logo-menu{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 100%;
+}
+a{
+    text-decoration: none;/*quitar subrayado a links*/
+    font-family:sans-serif, Verdana, Geneva, Tahoma;
+    color: black;
+}
+#menu ul{
+    display: flex;
+    list-style: none; /*quitar viñetas*/
+}
+#menu a{
+    color: black;
+    font-weight: bold;
+    padding: 0.7em 0.5em; /*separar texto links*/
+}
+#perfil{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.separador{
+    height: 70px;
+}

@@ -1,0 +1,7 @@
+
+.icon-camera:before { content: '\e800'; } /* '' */
+.icon-search:before { content: '\e801'; } /* '' */
+.icon-app:before { content: '\e802'; } /* '' */
+.icon-share:before { content: '\e803'; } /* '' */
+.icon-mic:before { content: '\f130'; } /* '' */
+.icon-mute:before { content: '\f131'; } /* '' */

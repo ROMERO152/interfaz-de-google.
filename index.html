@@ -1,5 +1,5 @@
-*<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +7,83 @@
     <title>interfaz de google</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2? family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
 
 
 </head>
 <body>
-    <div id="cuerpo">
-        <div id="menu">
-            <header>
-                <nav id="menu-bar">
+    <!--header de la pagina web-->
+    <header>
+        <div class="contenedor">
+            <div class="contenedor-logo-menu">
+                <nav id="menu">
                     <ul>
-                        <li><a href="gmail">gmail</a></li>
-                        <li><a href="imagenes">imagenes</a></li>
+                        <li><a href="#">Gmail</a></li>
+                        <li><a href="#">Imagenes</a></li>
                     </ul>
-                        
                 </nav>
-        
-            </header>
-        </div>
-        
-        <div>
-            <div id="letras">
-                <h2>Google</h2>
+                
+                <input type="checkbox" id="activar">
+                <label for="activar" class="icon-app"></label>
+    
+                <img id="perfil" src="imagenes/perfil.jfif" alt="">
             </div>
         </div>
+    </header>
+
+    <div class="separador"></div> <!--separador-->
+
+    <!--banner de la pagina-->
+    <div id="banner">
+        <div>
+            <img id="google" src="imagenes/google.gif" alt="">
+            <input type="button" id="compartir">
+            <label for="compartir" class="icon-share"></label>
+        </div>
+        <!--barra de busqueda-->
+        <div class="buscar">
+            <form action="https://www.google.com/search" method="get" class="search-bar">
+                <img src="imagenes/search.png" alt="">
+                <input type="text" placeholder="Buscar"name="q"> 
+                <!--iconos microfono y camara-->
+                <button type="submit" id="micro">
+                <label for="micro" class="icon-mic"></label>
+                <button type="submit" id="camara">
+                <label for="camara" class="icon-camera"></label>
+                
+                
+            </form>
+        </div>
+        <!--botones de google-->
+        <div class="botones">
+            <button type="submit"><a href="https://www.google.com.mx/">Buscar con Google</a></button>
+            <button type="submit"><a href="https://www.google.com/doodles">Voy a tener suerte</a></button>
+        </div>
+        
+    </div>
+    <div class="separador2"></div>
+
+    <!--pie de pagina-->
+    <div id="pie">
+        <footer class="pie-pagina"><ul><li>México</li></ul></footer>
+        <footer class="pie-pagina">
+            <ul>
+                <li><a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a></li>
+                <li><a href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></li>
+                <li><a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/">Negocios</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">cómo funciona la búsqueda</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a></li>
+                <li><a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a></li>
+                <li><a href="pre">Preferencias</a></li>
+            </ul>
+        </footer>
     </div>
     
-    
+      
 </body>
 </html>
